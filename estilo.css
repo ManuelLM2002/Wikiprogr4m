@@ -1,0 +1,89 @@
+body {
+font-familiy: Arial, Helvetica, sans-serif;
+margin: 0;
+background: url("img/fondo.jpg");
+background-size: cover;
+background-attachment: fixed;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.contenedor {
+width: 100%;
+padding: 15px;
+}
+
+.formulario {
+background: white;
+margin-top: 150px;
+padding: 3px;
+}
+
+h1 {
+text-align: center;
+color: #1A2537;
+font-size: 40px;
+}
+
+p {
+text-align: center;
+}
+
+input[type="text"],input[type="password"] {
+font-size: 20px;
+width: 80%;
+padding: 10px;
+border: none;
+}
+
+.input-contenedor {
+margin-bottom: 1px;
+border: 1px solid #aaa;
+}
+
+img {
+min-width: 20px;
+text-align: center;
+color: #999;
+}
+
+.login {
+border: none;
+width: 100%;
+color: orange;
+font-size: 20px;
+background: #1A2537;
+padding: 3px 200px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.registro {
+border: none;
+width: 100%;
+color: orange;
+font-size: 20px;
+background: #1A2537;
+padding: 3px 200px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.button:hover {
+background: cadetblue;
+}
+
+.link:hover {
+color: cadetblue;
+}
+
+@media(min-width: 768px) {
+.formulario {
+margin: auto;
+width: 500px;
+margin-top: 150px;
+border-radius: 2%;
+}
+}
